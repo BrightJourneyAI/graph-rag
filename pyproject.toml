@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "graph_rag"
+version = "0.1.0"
+description = ""
+authors = ["Mark O'Brien <markmikeobrien@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.4"
+langchain = "^0.2.5"
+langchain-community = "^0.2.5"
+neo4j = "^5.21.0"
+langchain-openai = "^0.1.9"
+wikipedia = "^1.4.0"
+langchain-experimental = "^0.0.61"
+youtube-transcript-api = "^0.6.2"
+streamlit = "^1.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+graph = "graph_rag.app:graph_content"
