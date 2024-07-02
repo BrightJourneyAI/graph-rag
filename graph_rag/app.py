@@ -12,7 +12,7 @@ from graph_rag.graph import GraphBuilder
 from graph_rag.rag import GraphRAG
 
 # Neo4j Client Setup
-os.environ["OPENAI_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = "sk-"
 os.environ["NEO4J_URI"] = "bolt://localhost:7687"
 os.environ["NEO4J_USERNAME"] = "neo4j"
 os.environ["NEO4J_PASSWORD"] = "buildkg123!"
