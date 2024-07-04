@@ -1,5 +1,9 @@
 # Graph RAG
-The following repository provides an implementation of GraphRAG which does the following:
+<p align="center">
+  <img src="graph_rag\images\graph-rag-ui.png" alt="graph-rag" width="500"/>
+</p>
+
+The following repository supports the article written [here](https://medium.com/@markmikeobrien/build-graphrag-using-streamlit-langchain-neo4j-gpt-4o-b0d1e938016e) & provides an implementation of GraphRAG which does the following:
 - Extracts content from a series of YouTube videos, Wikipedia articles & text files. It is initially setup with resources on Garmin watches but you can swap this out for anything you like
 - Once extracted it will build a knowledge graph for all the extracted entities in the content
 - A custom retriever will combine a hybrid approach using both vector nearest neighbor & cipher queries to extract relevant content to the users query
@@ -53,5 +57,7 @@ Resetting the graph will remove all nodes and edges as well as any metadata, use
 
 ## Liked This?
 If you liked this consider supporting me for free by [joining my twice weekly newsletter](https://bit.ly/45lG2pR) on all things AI or by treating me to a cup of coffee, if you think I deserve it. 
+
+Checkout my blog where I deep dive in AI and the latest innovations [Bright Journey AI](https://brightjourneyai.com/)
 
 <a href="https://buymeacoffee.com/brightjourneyai" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
